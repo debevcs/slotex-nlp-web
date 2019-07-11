@@ -27,7 +27,7 @@ The detailed review shows the whole text and the number of tokens.
 
 image::Slika5.png[]
 
-The tokens rewiev shows the tokenized text with part-of-speech tags, lemmas and named-entities tags in the form of a table.
+The tokens review shows the tokenized text with part-of-speech tags, lemmas and named-entities tags in the form of a table.
 
 image::Slika6.png[]
 
@@ -70,6 +70,8 @@ Click on a word to edit the tags.
 
 image::Slika11.png[]
 
+After the tags are edited, click _save_, to send the correction back to the model and re-learn it based on the corrections. The button will also close the current dialog window and _Tokens review_ window. By choosing the _close_ button however, the changes will be cancelled and the dialog window will close without any further actions.
+
 image::Slika12.png[]
 
 === Models
@@ -80,11 +82,11 @@ image::Slika13.png[]
 
 === Corpora
 
-To select which lines from a corpus to access for relearning of the model enter the numeric values of the lines. The maximum range is limited to 20 lines. 
+To select which lines from a corpus to access for relearning of the model, enter the numeric values of the lines and press the button _Get_. The maximum range is limited to 20 lines. 
 
 image::Slika14.png[]
 
-After successfully accessing the lines entities can be edited or corrected by hand. Every line is marked with two types of marking entities. The differences are indicated by a checkmark.
+After successfully accessing the lines entities can be edited or corrected by hand. Every line is marked with two types of marking entities. The differences are indicated by the checkmark.
 
 image::Slika15.png[]
 
